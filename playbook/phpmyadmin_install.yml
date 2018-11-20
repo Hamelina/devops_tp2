@@ -1,0 +1,7 @@
+- hosts: PMA
+  sudo: yes
+  roles:
+     - nginx
+     - php
+     - phpfpm
+     - phpmyadmin
